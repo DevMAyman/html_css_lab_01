@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h1 {
+        text-align: center;
+        font-size: 50px;
+      }
+      a {
+        font-size: 48px;
+        padding-inline: 16px;
+      }
+      button {
+        border-radius: 20px;
+        padding-inline: 50px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 48px;
+        font-weight: 300;
+        background-color: green;
+        cursor: pointer;
+        border: none;
+        color: white;
+        transition: all 0.3s;
+        box-shadow: 6px 6px 6px 0px black;
+      }
+      button:active {
+        box-shadow: none;
+        transform: translate(6px, 6px);
+      }
+      * {
+        font-family: "Roboto", sans-serif;
+      }
+      body {
+        background-color: aliceblue;
+      }
+      .parent {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      .twobutton {
+        display: inline-block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <h1>Lesson 5 - Question</h1>
+      <div class="twobutton">
+        <button>Shadow</button>
+      </div>
+    </div>
+  </body>
+</html>

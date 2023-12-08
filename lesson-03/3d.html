@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h1 {
+        text-align: center;
+        font-size: 50px;
+      }
+      .btn {
+        width: 300px;
+        height: 200px;
+        font-size: 48px;
+        font-weight: 300;
+        background-color: black;
+        color: white;
+        border: none;
+        border-radius: 14px;
+      }
+      * {
+        font-family: "Roboto", sans-serif;
+      }
+      body {
+        background-color: aliceblue;
+      }
+      .parent {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      p {
+        font-size: 52px;
+      }
+      .buttonContainer {
+        display: flex;
+        gap: 12px;
+      }
+      .get {
+        background-color: rgb(121, 82, 179);
+        color: white;
+        transition: 0.3s all;
+      }
+      .download {
+        color: rgb(108, 117, 125);
+        background-color: white;
+        border: rgb(108, 117, 125) 1px solid;
+        transition: 0.3s all;
+      }
+      .get:hover {
+        background-color: rgb(95, 62, 145);
+        color: white;
+      }
+      .download:hover {
+        color: white;
+        background-color: rgb(108, 117, 125);
+        border: rgb(108, 117, 125) 1px solid;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <h1>Lesson 3 - Question d</h1>
+      <div class="buttonContainer">
+        <button class="get btn">Get Started</button>
+        <button class="download btn">Download</button>
+      </div>
+    </div>
+  </body>
+</html>

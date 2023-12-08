@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h1 {
+        text-align: center;
+        font-size: 50px;
+      }
+      a {
+        color: rgb(0, 113, 133);
+        font-size: 24px;
+        transition: 0.3s all;
+      }
+      a:hover {
+        color: rgb(210, 16, 16);
+      }
+      .btn {
+        border-radius: 20px;
+        padding-inline: 50px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 48px;
+        font-weight: 300;
+        border: none;
+        border-radius: 64px;
+        cursor: pointer;
+      }
+      * {
+        font-family: "Roboto", sans-serif;
+      }
+      body {
+        background-color: aliceblue;
+      }
+      .parent {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      .yellowbtn {
+        background-color: rgb(255, 216, 20);
+        transition: 0.3s all;
+      }
+
+      .yellowbtn:active {
+        opacity: 0.7;
+      }
+      .yellowbtn:hover {
+        background-color: rgb(176, 149, 13);
+      }
+      .orangebtn {
+        background-color: rgb(255, 164, 28);
+      }
+      .orangebtn:active {
+        opacity: 0.7;
+      }
+      .orangebtn:hover {
+        background-color: rgb(194, 124, 20);
+      }
+      p {
+        font-size: 52px;
+      }
+      .twobutton {
+        display: inline-block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <h1>Lesson 2 - Question f</h1>
+      <div>
+        <a href="https://www.amazon.com/">Back to Amazon</a>
+        <p style="color: rgb(0, 118, 0)">Nike Black Runnung shoes</p>
+        <p>Free delivery tomorrow</p>
+        <div class="twobutton">
+          <button class="yellowbtn btn">Add to card</button>
+          <button class="orangebtn btn">Buy now</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
