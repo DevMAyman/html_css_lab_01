@@ -1,0 +1,48 @@
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+button {
+  border-radius: 20px;
+  padding-inline: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 48px;
+  font-weight: 300;
+}
+* {
+  font-family: "Roboto", sans-serif;
+}
+.blackpa {
+  font-weight: 700;
+  font-size: 48px;
+}
+.redpa {
+  color: red;
+  font-size: 24px;
+  font-style: italic;
+}
+body {
+  background-color: aliceblue;
+}
+.parent {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.twobutton {
+  display: inline-block;
+}
+.bolding {
+  font-weight: 600;
+}
+.noBold {
+  font-weight: 300;
+  color: #888;
+}

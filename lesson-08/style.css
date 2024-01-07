@@ -1,0 +1,80 @@
+input {
+  display: block;
+  margin-bottom: 12px;
+  width: 100%;
+}
+.q8 {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+img {
+  width: 25%;
+}
+.q8c {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.go-input {
+  width: 100%;
+  border: none;
+  box-shadow: 0px 0px 2px 0px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  font-size: 16px;
+  border-radius: 16px;
+  padding-inline: 6px;
+  margin-top: 16px;
+}
+.input-fa {
+  display: block;
+}
+.box8d {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.contain-input {
+  display: flex;
+  width: 100%;
+  gap: 6px;
+}
+.myButton {
+  width: 100%;
+  border-radius: 16px;
+  border: none;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  font-size: 16px;
+  color: white;
+  background-color: #0672ff;
+}
+.uber-para {
+  font-size: 32px;
+}
+.uber-input {
+  border: none;
+  background-color: #fcfcfc;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.uber {
+  width: 50%;
+}
+
+.uber-btn {
+  border: none;
+  padding: 8px;
+}
+.uber-btn-bla {
+  background-color: black;
+  color: white;
+}
+
+.uber-btn-white {
+  background-color: white;
+}

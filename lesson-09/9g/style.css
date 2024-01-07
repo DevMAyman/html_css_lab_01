@@ -1,0 +1,32 @@
+.card {
+  width: 250px;
+  box-shadow: 0 0 3px 0;
+  border-radius: 2px;
+  display: inline-block;
+}
+.words {
+  padding: 16px;
+}
+img {
+  width: 100%;
+}
+h6 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  margin: 0;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #888;
+  margin: 0;
+}
+button {
+  margin-top: 6px;
+  background-color: #166fe5;
+  border: none;
+  padding: 8px;
+  color: white;
+  border-radius: 6px;
+}
+.contain-cards {
+}

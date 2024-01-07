@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Question-seven</title>
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+      img {
+        display: block;
+        width: 40px;
+      }
+      .main-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        box-shadow: 0 0 5px 0;
+        padding: 4px;
+        border-radius: 6px;
+      }
+      .mydiv {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        overflow: hidden;
+        left: 12px;
+        z-index: 5;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        box-shadow: none;
+      }
+      input {
+        border-radius: 50px;
+        display: inline-block;
+        padding: 16px;
+        padding-left: 54px;
+        border: none;
+        position: relative;
+        left: 0;
+        top: 0;
+        right: 0;
+      }
+      button {
+        display: inline;
+        position: relative;
+        z-index: 50;
+        background-color: #1da1f2;
+        padding: 12px;
+        border-radius: 32px;
+        color: white;
+        border: none;
+        padding-inline: 24px;
+        left: 0;
+        top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-div">
+      <div class="mydiv">
+        <img src="./cat.jpg" alt="cat" />
+      </div>
+      <input type="text" placeholder="What is happening" />
+      <button>Tweet</button>
+    </div>
+  </body>
+</html>
